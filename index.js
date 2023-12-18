@@ -1,114 +1,205 @@
 const questions = [
     {
-        question: " QUEL EST LA SIGNIFICATION APPROPRIÉ À L'EXPRESSION 'Dêmin-dêmin' ",
-        optionA: "manger à sa faim",
-        optionB: "se débrouille.",
-        optionC: "donner vie",
-        optionD: "parler trop",
+        question: " Que signifie 'Dêmin-dêmin' ",
+        optionA: "Manger à sa faim",
+        optionB: "Se débrouiller",
+        optionC: "Donner vie",
+        optionD: "Parler trop",
         correctOption: "optionB"
     },
 
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
+        question: "Comment dire 'MANGER ENSEMBLE'?",
+        optionA: "Le coulé",
+        optionB: "Gbayé dans gbêve",
+        optionC: "Daba en gbonhï",
+        optionD: "Fraya",
         correctOption: "optionC"
     },
 
     {
-        question: "QUEL SIGNIFIE 'yé té couman de kélkéchoz'",
-        optionA: "parler en vaine",
-        optionB: "Prends la jambe",
-        optionC: "se débrouille",
-        optionD: "je te parle de quelque chose",
+        question: "QUE SIGNIFIE 'yé té couman de kélkéchoz'",
+        optionA: "Parler en vain",
+        optionB: "Prendre l'argent",
+        optionC: "Se débrouiller",
+        optionD: "Je te parle de quelque chose",
         correctOption: "optionD"
     },
 
     {
-        question: "MAISON",
-        optionA: "bori",
-        optionB: "jéton",
-        optionC: "pix",
-        optionD: "mousso",
+        question: "Comment dire 'MAISON' ?",
+        optionA: "Bori",
+        optionB: "Jéton",
+        optionC: "Pix",
+        optionD: "Mousso",
+        correctOption: "optionC"
+    },
+
+    
+    {
+        question: "Donnez un synonyme de 'AFFAIRAGE'",
+        optionA: "Gawa",
+        optionB: "Zoo",
+        optionC: "Bori",
+        optionD: "Gbairai",
+        correctOption: "optionD"
+    },
+     
+    {
+        question: "Donnez un synonyme de 'AMOUREUX'",
+        optionA: "Fraya",
+        optionB: "Beko",
+        optionC: "Fan",
+        optionD: "Apoutchou",
         correctOption: "optionC"
     },
 
     
 
-    
-   
-
     {
-        question: "Qui était l'entraîneur de l'équipe du Sénégal lors de la CAN 2002, où ils ont atteint la finale pour la première fois?",
-        optionA: "Lamine N'Diaye",
-        optionB: "Bruno Metsu",
-        optionC: "Omar Daf",
-        optionD: "Mbaye Leye",
+        question: "Comment dire 'COURIR' ?",
+        optionA: "Behou",
+        optionB: "Chap chap",
+        optionC: "Gbor",
+        optionD: "Choco",
+        correctOption: "optionA"
+    },
+    {
+        question: "Comment dire 'REFLECHIR' ?",
+        optionA: "Gouman",
+        optionB: "Sciencé",
+        optionC: "Mousso",
+        optionD: "Fata",
+        correctOption: "optionB"
+    }
+    ,
+    {
+        question: "Comment dire 'IGNORANT' ?",
+        optionA: "Fargot",
+        optionB: "Din din",
+        optionC: "Gahou",
+        optionD: "Gbé",
+        correctOption: "optionC"
+    }
+    ,
+    {
+        question: "Que signifie 'BAHI' ?",
+        optionA: "Chanceux",
+        optionB: "Malchanceux",
+        optionC: "Intelligent",
+        optionD: "Sage",
+        correctOption: "optionB"
+    }
+    ,
+    {
+        question: "Que signifie 'Zo' ?",
+        optionA: "Parc animalier",
+        optionB: "Forêt",
+        optionC: "Restaurant",
+        optionD: "Joli",
+        correctOption: "optionD"
+    }
+    ,
+    {
+        question: "Que signifie 'SKINNY' ?",
+        optionA: "Riche",
+        optionB: "Mince",
+        optionC: "Rapporter",
+        optionD: "Donner",
         correctOption: "optionB"
     },
-
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
-    },
+        question: "Donnez la signification de Abogaiss",
+        optionA: "Joli",
+        optionB: "Avare",
+        optionC: "Étranger",
+        optionD: "Menteuse",
+        correctOption: "optionA"
+    }
+    ,
+    {
+        question: "Donnez la signification de 'Assoya'",
+        optionA: "S'associer",
+        optionB: "Engueuler",
+        optionC: "Critiquer",
+        optionD: "Courir",
+        correctOption: "optionA"
+    }
 
+,
+{
+        question: "Qu'est-ce que 'Atalaku' signifie ?",
+        optionA: "Quelqu'un",
+        optionB: "Eloges",
+        optionC: "Danser",
+        optionD: "Fuir",
+        correctOption: "optionB"
+}
+    ,
     
-
-    {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
-    },
-    {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
-    }
-    ,
-    {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
-    }
-    ,
-    {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
-    }
-    ,
-    {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
-    }
-    ,
+{
+    question: "Comment pourrait-on définir Atchè en un mot?",
+    optionA: "Affairé",
+    optionB: "Avare",
+    optionC: "Mignon",
+    optionD: "Musclé",
+    correctOption: "optionB"
+ }
+ ,
     
-
-
+    {
+        question  : "Donnez la signification de Bingue",
+        optionA: "La France",
+        optionB :"L'Europe",
+        optionC :"Krika 5",
+        optionD :"Difficile",
+        correctOption: "optionA"
+        }
+        ,
+        {
+        question  : "Que signifie 'Bâ fils' en nouchi",
+        optionA: "1 500 francs CFA",
+        optionB: "Krika",
+        optionC: "1 000 francs CFA",
+        optionD: "Trop compliqué",
+        correctOption: "optionA"
+        }
+        ,
+        {
+        question :" Qu'est-ce que 'Braisage' signifie en nouchi ?",
+        optionA: "Critiquer, parler des gens",
+        optionB: "Afférage",
+        optionC: "Danser",
+        optionD: "Engueuler",
+        correctOption: "optionA"
+        },
+        {
+            question : "Comment pourrait-on définir C'est mou en un mot?",
+            optionA: "Etre tchass, être sexy",
+            optionB: "Ne pas avoir d'argent",
+            optionC: "Etre fatigué",
+            optionD: "Etre enceinte",
+            correctOption: "optionB"
+            }
+            ,
+            {
+            question : "Que veut dire 'Dêmin-dêmin' en nouchi",
+            optionA: "Ramener quelqu'un à la réalité",
+            optionB: "Décourager une personne",
+            optionC:" Se débrouiller",
+            optionD: "Faire vite, Se dépêcher",
+            correctOption: "optionC"
+            }
+            ,
+            {    
+            question : "Que signifie 'Kpo Kpo' en nouchi ?",
+            optionA: "Expliquer quelque chose",
+            optionB:" Casser mon cou",
+            optionC: "Appeler, téléphoner, coup de fil",
+            optionD: "Prendre sa balle, coup tete...",
+            correctOption: "optionC"
+            }
 ]
-
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
 
 function handleQuestions() { 
