@@ -49,7 +49,7 @@ main {
 
 .game-details-container h1 {
     font-size: 1.2rem;
-    color: #0A5757;
+    color:  #2256A3;
 }
 
 .game-question-container {
@@ -120,7 +120,7 @@ input[type="radio"] {
 }
 
 input[type=radio]:checked ~ .option {
-    background: rgb(0, 255, 115);
+    background: rgb(68, 221, 150);
 }
 
 .next-button-container {
@@ -169,7 +169,7 @@ input[type=radio]:checked ~ .option {
 .modal-content-container {
     height: 20rem;
     width: 25rem;
-    background-color: rgb(43, 42, 42);
+    background-color:  #0b2b5c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,7 +219,7 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-button-container button:hover {
-    background-color: rgb(83, 82, 82);
+    background-color: rgb(7, 7, 7);
 }
 
 /* Media Queries for Tablets */
@@ -227,7 +227,6 @@ input[type=radio]:checked ~ .option {
     .game-quiz-container {
         width: 80%;
         background-color: rgb(255, 255, 255);
-        box-shadow: 2px 1px 11px #0A5757;
     }
 }
 
@@ -236,7 +235,6 @@ input[type=radio]:checked ~ .option {
     .game-quiz-container {
         width: 90%;
         background-color: rgb(255, 255, 255);
-        box-shadow: 2px 1px 11px #0A5757;
 
     }
 }
