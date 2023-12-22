@@ -55,7 +55,7 @@ main {
 .game-question-container {
     width: 90%;
     height: 8rem;
-    background-color: #0A5757;
+    background-color:  #2256A3;
     color: white;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #0A5757;
+    border: 2px solid  #2256A3;
     border-radius: 20px;
     overflow: hidden;
     font-size: 1rem;
@@ -111,7 +111,7 @@ span label:hover {
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
-    color: rgb(243, 102, 7);
+    color:  #2256A3;
 }
 
 input[type="radio"] {
@@ -141,13 +141,13 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     outline: none;
     position: relative;
-    background-color: #0A5757;
+    background-color: #2256A3;
     bottom: 12px;
     border: none;
 }
 
 .next-button-container button:hover {
-    background-color: rgb(240, 109, 3);
+    background-color: rgb(20, 185, 163);
 }
 
 .modal-container {
