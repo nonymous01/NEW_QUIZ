@@ -195,8 +195,89 @@ const questions = [
             question : "Que signifie 'Kpo Kpo' en nouchi ?",
             optionA: "Expliquer quelque chose",
             optionB:" Casser mon cou",
-            optionC: "Appeler, téléphoner, coup de fil",
-            optionD: "Prendre sa balle, coup tete...",
+            optionC: "coup de fil",
+            optionD: "Prendre sa balle",
+            correctOption: "optionC"
+            }
+            ,
+            {    
+            question : "Que signifie 'Il a tapé poto' ?",
+            optionA: "carrément",
+            optionB:" Casser mon cou",
+            optionC: "l’échec",
+            optionD: "magnifique",
+            correctOption: "optionC"
+            }
+            ,
+            {    
+            question : "Que signifie 'Fo me laa le djê' ?",
+            optionA: "assimilé",
+            optionB:"Recevoir de l’argent",
+            optionC: "l’échec",
+            optionD: "vérités",
+            correctOption: "optionB"
+            }
+            ,
+            {    
+            question : "Que signifie 'Se dire les gbês' ?",
+            optionA: "objectif",
+            optionB:"simplement",
+            optionC: "être franc",
+            optionD: "vérités",
+            correctOption: "optionC"
+            }
+            ,
+            {    
+            question : "Que signifie 'Yai géré ça chap-chap' ?",
+            optionA: "le debout",
+            optionB:"ses avances",
+            optionC: "être franc",
+            optionD: "être réactif",
+            correctOption: "optionD"
+            }
+            ,
+            {    
+            question : "Que signifie 'Tu es dans pain' ?",
+            optionA: "aux problèmes",
+            optionB:"rapide",
+            optionC: "Se débrouiller",
+            optionD: "être réactif",
+            correctOption: "optionA"
+            }
+            ,
+            {    
+            question : "Que signifie 'Son kair est mort' ?",
+            optionA: "Désigne la peur",
+            optionB:"rapide",
+            optionC: "Se débrouiller",
+            optionD: "ramène",
+            correctOption: "optionA"
+            }
+            ,
+            {    
+            question : "Que signifie 'Prendre drap' ?",
+            optionA: "Désigne la peur",
+            optionB:"tu vas voir",
+            optionC: "assemble",
+            optionD: "ramène",
+            correctOption: "optionB"
+            }
+            ,
+            {    
+            question : "Que signifie 'Ça é dan ses dents' ?",
+            optionA: "la sympathie",
+            optionB:"belles",
+            optionC: "assemble",
+            optionD: "l’affection",
+            correctOption: "optionD"
+            }
+            ,
+            {    
+            question : "Que signifie 'Le kra est zo ' ?",
+            optionA: "tolérance",
+            optionB:"tomber",
+            optionC: "belles rondeurs",
+            optionD: "l’affection",
             correctOption: "optionC"
             }
 ]
