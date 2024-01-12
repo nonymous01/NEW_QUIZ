@@ -136,6 +136,14 @@ main {
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
 }
+.ansut{
+    position: absolute;
+    top: 600px;
+    width: 15%;
+    justify-content: center;
+    left: 43%;
+    transform: rotate(0deg);
+}
 
 span label {
     width: 100%;
@@ -285,12 +293,28 @@ input[type=radio]:checked ~ .option {
         width: 80%;
         /* background-color: rgb(255, 255, 255); */
     }
+    .ansut{
+        position: absolute;
+        top: 600px;
+        width: 15%;
+        justify-content: center;
+        left: 43%;
+        transform: rotate(0deg);
+    }
     
 }
 @media screen and (min-width:594px) and (max-width:1180px) { 
     .game-quiz-container {
         width: 80%;
         /* background-color: rgb(255, 255, 255); */
+    }
+    .ansut{
+        position: absolute;
+        top: 900px;
+        width: 15%;
+        justify-content: center;
+        left: 43%;
+        transform: rotate(0deg);
     }
     .image{
         width: 125%;  
@@ -459,6 +483,7 @@ input[type=radio]:checked ~ .option {
     left: 96%;
     transform: rotate(-90deg);
 }
+
 
     
 }
