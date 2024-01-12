@@ -27,10 +27,10 @@ const questions = [
     },
 
     {
-        question: "Comment dire 'MAISON' ?",
+        question: "Comment dire 'Je suis a la Maison' ?",
         optionA: "Bori",
         optionB: "Jéton",
-        optionC: "Pix",
+        optionC: "chuis en Pix",
         optionD: "Mousso",
         correctOption: "optionC"
     },
@@ -138,7 +138,7 @@ const questions = [
     ,
     
 {
-    question: "Comment pourrait-on définir Atchè en un mot?",
+    question: "Comment pourrait-on définir Atchèè en un mot?",
     optionA: "Affairé",
     optionB: "Avare",
     optionC: "Mignon",
@@ -150,8 +150,8 @@ const questions = [
     {
         question  : "Donnez la signification de Bingue",
         optionA: "La France",
-        optionB :"L'Europe",
-        optionC :"Krika 5",
+        optionB :"Konhoa",
+        optionC :"Krika",
         optionD :"Difficile",
         correctOption: "optionA"
         }
@@ -167,7 +167,7 @@ const questions = [
         ,
         {
         question :" Qu'est-ce que 'Braisage' signifie en nouchi ?",
-        optionA: "Critiquer, parler des gens",
+        optionA: "Critiquer",
         optionB: "Afférage",
         optionC: "Danser",
         optionD: "Engueuler",
@@ -204,7 +204,7 @@ const questions = [
             question : "Que signifie 'Il a tapé poto' ?",
             optionA: "carrément",
             optionB:" Casser mon cou",
-            optionC: "l’échec",
+            optionC: "échouer",
             optionD: "magnifique",
             correctOption: "optionC"
             }
@@ -231,14 +231,14 @@ const questions = [
             question : "Que signifie 'Yai géré ça chap-chap' ?",
             optionA: "le debout",
             optionB:"ses avances",
-            optionC: "être franc",
+            optionC: "Énumération",
             optionD: "être réactif",
             correctOption: "optionD"
             }
             ,
             {    
             question : "Que signifie 'Tu es dans pain' ?",
-            optionA: "aux problèmes",
+            optionA: "Tu as des problèmes",
             optionB:"rapide",
             optionC: "Se débrouiller",
             optionD: "être réactif",
@@ -262,15 +262,7 @@ const questions = [
             optionD: "ramène",
             correctOption: "optionB"
             }
-            ,
-            {    
-            question : "Que signifie 'Ça é dan ses dents' ?",
-            optionA: "la sympathie",
-            optionB:"belles",
-            optionC: "assemble",
-            optionD: "l’affection",
-            correctOption: "optionD"
-            }
+            
             ,
             {    
             question : "Que signifie 'Le kra est zo ' ?",

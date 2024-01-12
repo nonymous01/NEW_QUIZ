@@ -6,22 +6,59 @@
 
 html, body {
     height: 100%;
-    background-color: white;
-
+    background-color: rgb(104, 171, 248);
+    
 }
 
 body {
     font-family: 'Montserrat', serif;
+    background: url('./i.jpg');
 }
-
+.papa{
+    color: #ffffff;
+    font-family: 'Montserrat', serif;
+}
+.dfgke{
+    position: absolute;
+    top: 600px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+.dfgke1{
+    position: absolute;
+    top: 80px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+.dfgke2{
+    position: absolute;
+    top: 250px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+.dfgke3{
+    position: absolute;
+    top: 450px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
 main {
+    height: 100vh;
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('../assets/background_image.jpg');
+    background: url('./i.jpg');
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +68,7 @@ main {
 .game-quiz-container {
     width: 40rem;
     height: 30rem;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,6 +79,8 @@ main {
 .game-details-container {
     width: 80%;
     height: 4rem;
+    position: relative;
+    bottom: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,19 +88,20 @@ main {
 
 .game-details-container h1 {
     font-size: 1.2rem;
-    color:  #2256A3;
+    color:  #ffffff;
 }
 
 .game-question-container {
     width: 90%;
-    height: 8rem;
-    background-color:  #2256A3;
-    color: white;
+    height: 7.3rem;
+    position: relative;
+    top: -15px;
+    
+    color:#2256A3;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid darkgray;
-    
+    position: relative;
     border-radius: 25px;
     font-family: 'Poppins', sans-serif;
 }
@@ -86,6 +126,7 @@ main {
     width:48%;
     height: 4rem;
     display: flex;
+    background-color: rgb(253, 253, 253);
     align-items: center;
     justify-content: center;
     border: 2px solid  #2256A3;
@@ -121,7 +162,7 @@ input[type="radio"] {
 }
 
 input[type=radio]:checked ~ .option {
-    background: rgb(68, 221, 150);
+    background: rgb(117, 187, 235);
 }
 
 .next-button-container {
@@ -142,7 +183,7 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     outline: none;
     position: relative;
-    background-color: #2256A3;
+    background-color: #0b3a86;
     bottom: 12px;
     border: none;
 }
@@ -176,6 +217,8 @@ input[type=radio]:checked ~ .option {
     align-items: center;
     justify-content: space-around;
     border-radius: 25px;
+    position: relative;
+    bottom: 50px;
 }
 
 .modal-content-container h1 {
@@ -219,7 +262,18 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     border-radius: 20px;
 }
-
+#display-question{
+    color:#ffffff;
+    width: 100%;
+     
+}
+.image{
+    width: 125%;  
+    height: 150px;
+    position: relative;
+    bottom: 400px;
+   
+}
 .modal-button-container button:hover {
     background-color: rgb(7, 7, 7);
 }
@@ -228,15 +282,195 @@ input[type=radio]:checked ~ .option {
 @media (max-width: 768px) {
     .game-quiz-container {
         width: 80%;
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
     }
+    
+}
+@media (max-width: 1180px) {
+    .game-quiz-container {
+        width: 80%;
+        /* background-color: rgb(255, 255, 255); */
+    }
+    .image{
+        width: 125%;  
+        height: 200px;
+        position: relative;
+        bottom: 500px;
+       
+    }
+    .game-question-container {
+        width: 90%;
+        height: 7.3rem;
+        position: relative;
+        top: -15px;
+        
+        color:#2256A3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .game-question-container h1 {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 3px;
+    }
+    
+    .game-options-container {
+        width: 90%;
+        height: 14rem;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        flex-wrap: wrap;
+        top: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .game-options-container span {
+        width:48%;
+        height: 4rem;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid  #2256A3;
+        border-radius: 20px;
+        overflow: hidden;
+        font-size: 0.9rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+.game-question-container {
+    width: 90%;
+    height: 7.3rem;
+    position: relative;
+    top: -55px;
+    
+    color:#2256A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.game-details-container {
+    width: 80%;
+    height: 4rem;
+    position: relative;
+    bottom:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-content-container {
+    height: 59rem;
+    left: -5%;
+    width: 45rem;
+    background-color:  #0b2b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+.modal-content-container h1 {
+    font-size: 2rem;
+    height: 3rem;
+    color: lightgray;
+    text-align: center;
+}
+.modal-button-container button {
+    width: 14rem;
+    height: 4rem;
+    background: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.next-button-container button {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 10px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: 2px solid gray;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    background-color: #0b3a86;
+    top: 20px;
+    border: none;
+}
+.grade-details {
+    width: 30rem;
+    height: 39rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grade-details p {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.dfgke{
+    position: absolute;
+    top: 600px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+.dfgke1{
+    position: absolute;
+    top: 80px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+.dfgke2{
+    position: absolute;
+    top: 350px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+.dfgke3{
+    position: absolute;
+    top: 850px;
+    width: 20%;
+    justify-content: center;
+    left: 96%;
+    transform: rotate(-90deg);
+}
+
+    
 }
 
 /* Media Queries for Phones */
 @media (max-width: 480px) {
+    
     .game-quiz-container {
         width: 90%;
-        background-color: rgb(255, 255, 255);
+        position: relative;
+        top: 30px;
 
     }
+    
 }
