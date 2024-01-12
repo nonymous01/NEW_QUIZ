@@ -80,7 +80,7 @@ main {
     width: 80%;
     height: 4rem;
     position: relative;
-    bottom: 10px;
+    bottom: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,6 +118,7 @@ main {
     display: flex;
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
+    position: relative;
     align-items: center;
     justify-content: space-around;
 }
@@ -271,7 +272,7 @@ input[type=radio]:checked ~ .option {
     width: 125%;  
     height: 150px;
     position: relative;
-    bottom: 400px;
+    bottom: 450px;
    
 }
 .modal-button-container button:hover {
@@ -303,7 +304,6 @@ input[type=radio]:checked ~ .option {
         height: 7.3rem;
         position: relative;
         top: -15px;
-        
         color:#2256A3;
         display: flex;
         align-items: center;
@@ -334,6 +334,7 @@ input[type=radio]:checked ~ .option {
         width:48%;
         height: 4rem;
         display: flex;
+
         background-color: white;
         align-items: center;
         justify-content: center;
@@ -349,7 +350,6 @@ input[type=radio]:checked ~ .option {
     height: 7.3rem;
     position: relative;
     top: -55px;
-    
     color:#2256A3;
     display: flex;
     align-items: center;
@@ -409,7 +409,7 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     outline: none;
     position: relative;
-    background-color: #0b3a86;
+    background-color: #123774;
     top: 20px;
     border: none;
 }
@@ -471,6 +471,45 @@ input[type=radio]:checked ~ .option {
         position: relative;
         top: 30px;
 
+    }
+    .game-question-container {
+        width: 90%;
+        height: 7.3rem;
+        position: relative;
+        top: -65px;
+        color:#2256A3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .game-options-container {
+        width: 90%;
+        height: 12rem;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        bottom: 53px;
+        justify-content: space-around;
+    }
+    .next-button-container button {
+        width: 10rem;
+        height: 4rem;
+        border-radius: 10px;
+        background: none;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        border: 2px solid gray;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        background-color: #123774;
+        top: -40px;
+        border: none;
     }
     
 }
