@@ -536,5 +536,13 @@ input[type=radio]:checked ~ .option {
         top: -80px;
         border: none;
     }
+    .ansut{
+        position: absolute;
+        top: 900px;
+        width: 15%;
+        justify-content: center;
+        left: 43%;
+        transform: rotate(0deg);
+    }
     
 }
