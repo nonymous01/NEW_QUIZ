@@ -493,7 +493,7 @@ input[type=radio]:checked ~ .option {
         flex-wrap: wrap;
         position: relative;
         align-items: center;
-        bottom: 53px;
+        bottom: 76px;
         justify-content: space-around;
     }
     .next-button-container button {
@@ -508,7 +508,7 @@ input[type=radio]:checked ~ .option {
         outline: none;
         position: relative;
         background-color: #123774;
-        top: -40px;
+        top: -80px;
         border: none;
     }
     
