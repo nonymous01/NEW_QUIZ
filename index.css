@@ -538,7 +538,7 @@ input[type=radio]:checked ~ .option {
     }
     .ansut{
         position: absolute;
-        top: 650px;
+        top: 550px;
         width: 15%;
         justify-content: center;
         left: 43%;
