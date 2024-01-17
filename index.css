@@ -279,6 +279,7 @@ input[type=radio]:checked ~ .option {
 }
 .image{
     width: 125%;  
+    right: 1%;
     height: 150px;
     position: relative;
     bottom: 450px;
